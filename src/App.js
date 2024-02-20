@@ -1,9 +1,14 @@
-import './App.css';
+import Footer from "./Componentes/Pages/Footer";
+import Header from "./Componentes/Pages/Header";
+import Path from "./Path";
 
 function App() {
   return (
-    <div className="App">
-    </div>
+  <>
+    <Header />
+      <Path />
+    <Footer /> 
+  </>
   );
 }
 
